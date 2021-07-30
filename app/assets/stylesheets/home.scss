@@ -1,3 +1,77 @@
 // Place all the styles related to the home controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.ui.button.ocrbutton{
+	background-color: #EBFAF5;
+	color: #009E68;
+  margin-top: 20px;
+  width: 150px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+}
+.ui.button.ocrbutton:hover{
+	background-color: #009E68; 
+	color: #EBFAF5;
+}
+
+.ui.button.pdfconvertbutton{
+	background-color: #EBFAF5;
+	color: #009E68;
+  margin-top: 20px;
+  width: 150px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+}
+
+.ui.button.pdfconvertbutton:hover{
+	background-color: #009E68; 
+	color: #EBFAF5;
+}
+
+.ui.button.splitpdfbutton{
+	background-color: #EBFAF5;
+	color: #009E68;
+  margin-top: 20px;
+  width: 150px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+}
+
+.ui.button.splitpdfbutton:hover{
+	background-color: #009E68; 
+	color: #EBFAF5;
+}
+
+.ui.button.mergepdfbutton{
+	background-color: #EBFAF5;
+	color: #009E68;
+  margin-top: 20px;
+  width: 150px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+}
+
+.ui.button.mergepdfbutton:hover{
+	background-color: #009E68; 
+	color: #EBFAF5;
+}
+
+.ui.button.rotatepdfbutton{
+	background-color: #EBFAF5;
+	color: #009E68;
+  margin-top: 20px;
+  width: 150px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+}
+
+.ui.button.rotatepdfbutton:hover{
+	background-color: #009E68; 
+	color: #EBFAF5;
+}
