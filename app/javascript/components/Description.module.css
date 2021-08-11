@@ -1,4 +1,25 @@
 .description{
 	width: 100%;
   height: 100%;
+  float: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.ocrimage{
+	border-radius: 50%;
+	height: 100px;
+	width:100px;
+}
+
+.pdfconvertimage{
+	border-radius: 50%;
+}
+
+.mergepdfimage{
+	border-radius: 50%;
+}
+
+.splitpdfimage{
+	border-radius: 50%;
 }
