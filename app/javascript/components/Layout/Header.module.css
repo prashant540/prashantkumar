@@ -1,52 +1,114 @@
 .header{
 	position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100px; 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+  padding-top: 25px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 32px;
+  border-left: solid 4px #e94728;
+  border-right: solid 4px #e94728;
+  background-color: #fff;
+  z-index: 10000;
 }
-
-.logo{
-	margin-top: 5px;
-	width: 120px;
-	height: 70px;
+.menuItems{
+  display: flex;
   text-align: center;
 }
 
-.ui.button{
-  background-color: #009E68;
-  margin-top: 15px;
+.logo{
+	margin-top: 10px;
+  text-align: center;
+  border-radius: 50%;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.ocrbutton{
+  background-color: #b8d4ec;
+  color: black;
+  width: 200px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.ocrbutton:active {
+  background-color: #009E68; 
+  color: #EBFAF5;
+}
+
+.ocrbutton:hover{
+  background-color: #17a2b8;
+  color: #EBFAF5;
 }
 
 .pdfconvertbutton{
-  background-color: #009E68; 
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px; 
+  background-color: #b8d4ec;
+  color: black;
+  width: 200px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+  padding-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.pdfconvertbutton:hover{
+  background-color: #17a2b8;
+  color: #EBFAF5;
 }
 
 .splitpdfbutton{
-  background-color: #009E68; 
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px; 
+  background-color: #b8d4ec;
+  color: black;
+  width: 200px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+  padding-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  cursor: pointer;
+  font-weight: 900;
+}
+
+.splitpdfbutton:hover{
+  background-color: #17a2b8;
+  color: #EBFAF5;
 }
 
 .mergepdfbutton{
-  background-color: #009E68;
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px; 
+  background-color: #b8d4ec;
+  color: black;
+  width: 200px;
+  margin-right: 10px;
+  height: 50px;
+  font-size: 12px;
+  padding-right: 10px;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  cursor: pointer;
+  font-weight: 900;
 }
 
-.rotatepdfbutton{
-  background-color: #009E68; 
-  padding-top: 15px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 15px; 
+.mergepdfbutton:hover{
+  background-color: #17a2b8;
+  color: #EBFAF5;
 }

@@ -1,3 +1,7 @@
 .app{
 	overflow: hidden;
+	background-color: #b8d4ec;
+}
+.button.ui.button {
+  color: red;
 }

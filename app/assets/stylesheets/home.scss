@@ -2,95 +2,42 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
-.ui.button.ocrbutton{
-	background-color: #EBFAF5;
-	color: #009E68;
-  margin-top: 20px;
-  width: 150px;
+.ui.button.ocrButton{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #b8d4ec;
+  color: black;
+  width: 200px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
 }
 
-.ui.button.ocrbutton:active {
-  background-color: #009E68; 
-  color: #EBFAF5;
-}
-
-.ui.button.ocrbutton:hover{
-	background-color: #009E68; 
-	color: #EBFAF5;
-}
-
-.ui.button.pdfconvertbutton{
-	background-color: #EBFAF5;
-	color: #009E68;
-  margin-top: 20px;
-  width: 150px;
+.ui.button.convertPdfButton{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #b8d4ec;
+  color: black;
+  width: 200px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
 }
 
-.ui.button.pdfconvertbutton:hover{
-	background-color: #009E68; 
-	color: #EBFAF5;
-}
-
-.ui.button.splitpdfbutton{
-	background-color: #EBFAF5;
-	color: #009E68;
-  margin-top: 20px;
-  width: 150px;
+.ui.button.mergePdfButton{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #b8d4ec;
+  color: black;
+  width: 200px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
 }
 
-.ui.button.splitpdfbutton:hover{
-	background-color: #009E68; 
-	color: #EBFAF5;
-}
-
-.ui.button.mergepdfbutton{
-	background-color: #EBFAF5;
-	color: #009E68;
-  margin-top: 20px;
-  width: 150px;
+.ui.button.splitPdfButton{
+	font-family: 'Ubuntu', sans-serif;
+	background-color: #b8d4ec;
+  color: black;
+  width: 200px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
-}
-
-.ui.button.mergepdfbutton:hover{
-	background-color: #009E68; 
-	color: #EBFAF5;
-}
-
-.ui.button.rotatepdfbutton{
-	background-color: #EBFAF5;
-	color: #009E68;
-  margin-top: 20px;
-  width: 150px;
-  margin-right: 10px;
-  height: 50px;
-  font-size: 12px;
-}
-
-.ui.button.rotatepdfbutton:hover{
-	background-color: #009E68; 
-	color: #EBFAF5;
-}
-
-.home-title{
-  margin-bottom: 100px;
-  text-align: center;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  color: #fff;
-  max-width: 1100px;
-  max-height: 500px;
-  font-family: cursive;
-  background-image: linear-gradient(180deg, #009E68, #32a89c);
 }

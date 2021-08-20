@@ -10,7 +10,7 @@ const MainSpace = props => {
 		switch (selected) {
 			case "ocr":
         return <Ocr/> ;
-      case "pdfconvert":
+      case "convertpdf":
         return <ConvertPdf/> ;
       case "splitpdf":
         return <SplitPdf/> ;
@@ -23,7 +23,7 @@ const MainSpace = props => {
 	return  <div className="ui grid">
             <div className="two wide column"></div>
             <div className="twelve wide column">
-              <div className="ui segment">
+              <div>
                  {setSelectedComponent(props.optionSelected)}
               </div>
            </div>
