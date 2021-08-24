@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-  <body style="overflow: hidden;">
+  <body id="app" style="max-height: 100vh;overflow: hidden; background-color: #b8d4ec;">
     <%= yield %>
   </body>
 </html>

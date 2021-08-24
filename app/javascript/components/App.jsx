@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import {Fragment} from 'react';
 import Header from './Layout/Header'
+import Footer from './Layout/Footer'
 import ReactDOM from 'react-dom';
 import Workspace from './Workspace'
 import classes from './App.module.css'
@@ -35,6 +36,7 @@ function App() {
   	<div className={classes.app}>
       <Header optionSelected={optionSelected} setOptionSelected={setOptionSelected} setDescriptionDetails={setDescriptionDetails}/>
       <Workspace optionSelected={optionSelected} header={header} description={description} setOptionSelected={setOptionSelected} setDescriptionDetails={setDescriptionDetails}/>
+      <Footer/>
     </div>
   );
 }

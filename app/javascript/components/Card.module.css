@@ -8,7 +8,9 @@
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
 	float:left; 
-	margin-right: 20px;
+	margin-right: 0.01px;
+	margin-top: 10px;
+	margin-left: 5px;
 }
 .cardTitle{
   font-size: 12pt;

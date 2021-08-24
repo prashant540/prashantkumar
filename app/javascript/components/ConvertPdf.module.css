@@ -1,8 +1,26 @@
 .convertPdfPage{
-	height: 60vh;
-	padding-left: 20px;
-	padding-right: 20px;
+	height: 50vh;
 	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.25);
 	background: white;
 	border-radius: 5px;
+  text-align: center;
+}
+
+.progressBar{
+	text-align: center;
+  vertical-align: middle;
+  margin-top: 50px;
+}
+
+.convertPdfContent{
+  position: relative;
+  height: 50vh;
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+}
+
+.convertPdfContentDiv {
+  flex: 1 0 auto;
+  text-align: center;
 }
