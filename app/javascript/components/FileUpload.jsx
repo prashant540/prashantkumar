@@ -7,9 +7,10 @@ const FileUpload = props => {
   const onDrop = useCallback(acceptedFiles => {
     fileChange(acceptedFiles);
   }, []);
-  const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop})
+  const {getRootProps, getInputProps, isDragActive} = useDropzone({onDrop, multiple: props.multiple})
   const uploadUrl = "/" + props.action;
   function fileChange(acceptedFiles) {
+    console.log(acceptedFiles);
     props.setIsFileReady(false);
     if (acceptedFiles.length > 0) {
       for (let i = 0; i < acceptedFiles.length; i++) {
@@ -39,15 +40,14 @@ const FileUpload = props => {
       })
   }
 
-  const ButtonClassName = `ui primary button ${classes.fileUploadButton}`;
-	return(
+  return(
    <div className={classes.fileUpload}>
-      <div {...getRootProps()}>
-        <input {...getInputProps()} />
+      <div className={classes.fileDropInput}  {...getRootProps()}>
+        <input {...getInputProps()} accept={props.acceptedExtension}/>
         {
           isDragActive ?
           <p>Drop the files here ...</p> :
-          <p>Drag 'n' drop some files here, or click to select files</p>
+          <p>{props.fileDropText}</p>
         }
       </div>
 		</div>

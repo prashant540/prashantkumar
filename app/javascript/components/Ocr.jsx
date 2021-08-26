@@ -1,13 +1,12 @@
 import React from "react";
 import classes from './Ocr.module.css';
 import FileUpload  from './FileUpload';
-import { Progress } from 'semantic-ui-react'
 const Ocr = props => {
 	const acceptedExtension = ".pdf"
 	const multiple = false;
-	const [percent,setPercent] = React.useState(0);
 	const [isInprogress,setIsInProgress] = React.useState(false);
 	const [isFileReady,setIsFileReady] = React.useState(false);
+	const fileDropText = "Drag 'n' drop a file here to initate ocr process, or click to select the file"
   return  <div className={classes.ocrPage}>
             <div>
 						  <div className="ui grid">
@@ -15,7 +14,7 @@ const Ocr = props => {
 						    <div className="ten wide column">
 						      <div className={classes.ocrContent}>
 							      <div>
-							        <FileUpload buttonName="Upload file to ocr" acceptedExtension={acceptedExtension} multiple={false} setIsInProgress={setIsInProgress} setIsFileReady={setIsFileReady} action="ocr"/>
+							        <FileUpload buttonName="Upload file to ocr" acceptedExtension={acceptedExtension} multiple={false} setIsInProgress={setIsInProgress} setIsFileReady={setIsFileReady} fileDropText={fileDropText} action="ocr"/>
 							      </div>
 							      {
 							    	  isInprogress ? 

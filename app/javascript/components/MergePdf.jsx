@@ -6,6 +6,7 @@ const MergePdf = props => {
 	const multiple = false;
   const [isInprogress,setIsInProgress] = React.useState(false);
 	const [isFileReady,setIsFileReady] = React.useState(false);
+	const fileDropText = "Drag 'n' drop some files here to initiate pdf merge, or click to select the files"
   return  <div className={classes.mergePdfPage}>
             <div>
 						  <div className="ui grid">
@@ -13,7 +14,7 @@ const MergePdf = props => {
 						    <div className="ten wide column">
 						      <div className={classes.mergePdfContent}>
 							      <div>
-							        <FileUpload buttonName="Upload files to Merge" acceptedExtension={acceptedExtension} multiple={true} setIsInProgress={setIsInProgress} setIsFileReady={setIsFileReady} action="merge"/>
+							        <FileUpload buttonName="Upload files to Merge" acceptedExtension={acceptedExtension} multiple={true} setIsInProgress={setIsInProgress} setIsFileReady={setIsFileReady} fileDropText={fileDropText} fileDropText={fileDropText} action="merge"/>
 							      </div>
 							      {
 							    	  isInprogress ? 

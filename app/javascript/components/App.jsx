@@ -14,7 +14,7 @@ function App() {
 		let descriptionTitle ="";
 		switch (option) {
       case "ocr":
-        headerTitle = "OCR"
+        headerTitle = "OCR a PDF file"
         descriptionTitle = "OCR stands for Optical Character Recongnition. Using this option you can upload any PDF files( scanned /true PDF) and generate text output of the PDF file."; break;
       case "convertpdf":
         headerTitle = "Convert a file to PDF";

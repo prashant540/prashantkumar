@@ -28,7 +28,7 @@
 .ocrbutton{
   background-color: #b8d4ec;
   color: black;
-  width: 200px;
+  width: 180px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
@@ -38,6 +38,7 @@
   line-height: 50px;
   cursor: pointer;
   font-weight: 900;
+  margin: auto;
 }
 
 .ocrbutton:active {
@@ -53,7 +54,7 @@
 .pdfconvertbutton{
   background-color: #b8d4ec;
   color: black;
-  width: 200px;
+  width: 180px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
@@ -64,6 +65,7 @@
   line-height: 50px;
   cursor: pointer;
   font-weight: 900;
+  margin: auto;
 }
 
 .pdfconvertbutton:hover{
@@ -74,7 +76,7 @@
 .splitpdfbutton{
   background-color: #b8d4ec;
   color: black;
-  width: 200px;
+  width: 180px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
@@ -85,6 +87,7 @@
   line-height: 50px;
   cursor: pointer;
   font-weight: 900;
+  margin: auto;
 }
 
 .splitpdfbutton:hover{
@@ -95,7 +98,7 @@
 .mergepdfbutton{
   background-color: #b8d4ec;
   color: black;
-  width: 200px;
+  width: 180px;
   margin-right: 10px;
   height: 50px;
   font-size: 12px;
@@ -106,6 +109,7 @@
   line-height: 50px;
   cursor: pointer;
   font-weight: 900;
+  margin: auto;
 }
 
 .mergepdfbutton:hover{
