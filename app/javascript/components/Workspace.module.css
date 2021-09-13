@@ -1,11 +1,8 @@
 .workspace{
-	background-color: #b8d4ec;
+  background-color: #eee;
   font-family: 'Ubuntu', sans-serif;
   margin-top: 120px;
 }
 
 .workspaceContent{
-	height: 80vh;
-	overflow-x: hidden;
-	overflow-y: auto;
 }

@@ -14,6 +14,66 @@
 .homeTitle{
 	margin-top: 50px;
   text-align: center;
-  color: #fff;
+  color: black;
   font-size: 30pt;
+}
+
+.slider{
+}
+
+.item{
+  height: 250px;
+  background-color: white;
+  border-radius: 1px;
+  text-align: center;
+  float: center; 
+  margin-top: 20px;
+  cursor: pointer;
+  display: flex;
+}
+
+.item:hover{
+  border: solid 1px #2185d0;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  transform: scale(1.001);
+  border-left: solid 1px #2185d0;
+  border-right: solid 1px #2185d0;
+}
+
+.cardImageDiv{
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%;
+  background: #FFD700;
+  height: 200px;
+  width: 200px;
+}
+
+.cardImage{
+  margin: auto; 
+  display: block;
+  width: 100px;
+  height: 100px;
+}
+
+.cardTitle{
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+}
+
+.cardValue{
+  color: #388e3c;
+  padding-top: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }

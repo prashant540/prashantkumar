@@ -12,7 +12,7 @@ default: &default
   username: root
   password: root
   # socket: /var/lib/mysql/mysql.sock
-  host: mysql_service
+  host: pk-mysql
 
 development:
   <<: *default

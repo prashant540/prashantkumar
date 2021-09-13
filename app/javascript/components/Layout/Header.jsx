@@ -9,22 +9,26 @@ const Header = props => {
     props.setOptionSelected(value);
     props.setDescriptionDetails(value);
 	}
-  return  <div className={classes.header}>
+	const menuItems = [{"itemName": "ocr", "className" : classes.ocrbutton , "title" : "OCR PDF"}, {"itemName": "convertpdf", "className" : classes.pdfconvertbutton, "title" : "CONVERT TO PDF"}, {"itemName" : "splitpdf", "className" : classes.splitpdfbutton, "title" : "SPLIT PDF"},{"itemName": "mergepdf", "className" : classes.mergepdfbutton,"title" : "MERGE PDFs"}]
+  const headerClassName = `ui four item menu ${classes.headerMenu}`;
+  return  (<div className={classes.header}>
 					  <div className="ui grid">
 						  <div className="three wide column">
-						    <div className={classes.logo} onClick={() => setValue("")}>Pdf-Tools</div>
 						  </div>
 						  <div className="ten wide column">
-						    <div className={classes.menuItems}>
-							    <div className={classes.ocrbutton} onClick={() => setValue("ocr")}>OCR PDF</div>
-							    <div className={classes.pdfconvertbutton} onClick={() => setValue("convertpdf")}>CONVERT TO PDF</div>
-							    <div className={classes.splitpdfbutton} onClick={() => setValue("splitpdf")}>SPLIT PDF</div>
-							    <div className={classes.mergepdfbutton} onClick={() => setValue("mergepdf")}>MERGE PDFs</div>
-						    </div>
+						     <div className={classes.logo} onClick={() => setValue("")}>PDF-TOOLS</div>
 						  </div>
 						  <div className="three wide column">
 						  </div>
 			  	  </div>
+			  	  <div className={headerClassName}>
+					    { 
+					      menuItems.map(function(item,i){
+					        return <a className="item" key={i} onClick={() => setValue(item["itemName"])}>{item["title"]}</a>
+					      })
+					    }
+					  </div>
           </div>
+        )
 };
 export default Header;

@@ -1,24 +1,29 @@
 .header{
-	position: fixed;
+  position: fixed;
   width: 100%;
-  height: 100px; 
-  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.25);
+  height: auto; 
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
   padding-top: 25px;
   text-align: center;
   font-family: 'Ubuntu', sans-serif;
-  font-size: 32px;
-  border-left: solid 5px #2185d0;
-  border-right: solid 5px #2185d0;
+  font-size: 12px;
   background-color: #fff;
   z-index: 10000;
 }
+
+.headerMenu{
+  background: #FFD700 !important;
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 400 !important;
+}
+
 .menuItems{
   display: flex;
   text-align: center;
 }
 
 .logo{
-	margin-top: 10px;
+	margin-top: 5px;
   text-align: center;
   border-radius: 50%;
   font-size: 30px;
