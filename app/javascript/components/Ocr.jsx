@@ -1,6 +1,7 @@
 import React from "react";
 import classes from './Ocr.module.css';
 import FileUpload  from './FileUpload';
+import { Button, Icon } from 'semantic-ui-react'
 const Ocr = props => {
 	const acceptedExtension = ".pdf"
 	const multiple = false;
@@ -29,7 +30,9 @@ const Ocr = props => {
 								    	isFileReady? 
 								    	(
 		                    <div className={classes.ocrContentDiv}>
-									    		<a href="/download" target="_blank"><i className="download icon"></i>Download</a>
+									    		<Button color='primary'>
+                                                   <Icon name='download' /> Download
+    											</Button>
 									    	</div>)
 								    	: (<div className={classes.ocrContentDiv}></div>)
 								    }
